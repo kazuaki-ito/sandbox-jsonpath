@@ -1,0 +1,14 @@
+{
+    "name": "sandbox-jsonpath",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "UNLICENSED",
+    "scripts": {
+        "exec": "node index.js"
+    },
+    "dependencies": {
+        "jsonpath-plus": "^0.19.0",
+        "node": "^12.3.1",
+        "safe-eval": "^0.4.1"
+    }
+}
