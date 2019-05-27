@@ -17,7 +17,7 @@ const safeEval = require('safe-eval');
         }
     };
 
-    const preQuery = "`$[?(${isInRange('$.old.lat','$.old.lng',35.000, 135.000, 500)} && ${isInRange('$.new.lat','$.new.lng',35.000, 135.000, 500)})]`";
+    const preQuery = "`$[?(${isInRange('$.old.lat','$.old.lng',35.000, 135.000, 500)} && ${!isInRange('$.new.lat','$.new.lng',35.000, 135.000, 500)})]`";
 
     // eval context
     const context = {
