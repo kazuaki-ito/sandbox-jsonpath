@@ -3,10 +3,6 @@
 const { JSONPath } = require('jsonpath-plus');
 const safeEval = require('safe-eval');
 
-function test() {
-
-}
-
 (async() => {
     const json = {
         old: {
